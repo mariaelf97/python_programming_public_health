@@ -10,9 +10,7 @@ def read_file(file_path):
         words = []
         for line in lines:
             line = line.strip("\n")
-            line_list = line.split(
-                " "
-            )
+            line_list = line.split(" ")
             words.append(line_list)
             flat_list = []
             for sublist in words:

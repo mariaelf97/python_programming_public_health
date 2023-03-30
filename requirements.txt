@@ -4,5 +4,50 @@
 #
 #    pip-compile --output-file=requirements.txt requirements.in
 #
-numpy==1.23.1
+bio==1.5.8
     # via -r requirements.in
+biopython==1.81
+    # via bio
+biothings-client==0.3.0
+    # via mygene
+certifi==2022.12.7
+    # via requests
+charset-normalizer==3.1.0
+    # via requests
+gprofiler-official==1.0.0
+    # via bio
+idna==3.4
+    # via requests
+mygene==3.2.2
+    # via bio
+numpy==1.24.2
+    # via
+    #   -r requirements.in
+    #   biopython
+    #   pandas
+packaging==23.0
+    # via pooch
+pandas==1.5.3
+    # via
+    #   -r requirements.in
+    #   bio
+platformdirs==3.2.0
+    # via pooch
+pooch==1.7.0
+    # via bio
+python-dateutil==2.8.2
+    # via pandas
+pytz==2023.3
+    # via pandas
+requests==2.28.2
+    # via
+    #   bio
+    #   biothings-client
+    #   gprofiler-official
+    #   pooch
+six==1.16.0
+    # via python-dateutil
+tqdm==4.65.0
+    # via bio
+urllib3==1.26.15
+    # via requests

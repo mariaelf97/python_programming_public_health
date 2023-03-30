@@ -3,7 +3,12 @@ import sys
 
 def main():
 
-    flowers = {"Sara": "Daffodil", "Phillip": "Gardenia", "William": "Honeysuckle", "Irena": "Marigold"}
+    flowers = {
+        "Sara": "Daffodil",
+        "Phillip": "Gardenia",
+        "William": "Honeysuckle",
+        "Irena": "Marigold",
+    }
     print("part a:")
     flowers.get("Phillip")
     print(flowers)
@@ -17,11 +22,7 @@ def main():
     print("part d:")
     flowers["Timothy"] = "Lavender"
     print(flowers)
-    
+
 
 if __name__ == "__main__":
     sys.exit(main())
-
-
-
-

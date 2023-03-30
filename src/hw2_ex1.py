@@ -2,7 +2,6 @@
 import argparse
 import sys
 
-
 from Bio import SeqIO
 
 
@@ -13,7 +12,7 @@ def read_fasta_file(path_to_file):
 
 def main():
     parser = argparse.ArgumentParser(
-	description=""" program to print all gene names in a multi-fasta file"""
+        description=""" program to print all gene names in a multi-fasta file"""
     )
     parser.add_argument(
         "-i", "--input", required=True, help="input file in multi fasta format"
